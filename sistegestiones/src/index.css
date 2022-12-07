@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  z-index: 1;
+  position: fixed;
+}
+
+.card{
+  height: 200px;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 120vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Syncopate', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3vw;
+  line-height: 1.2;
+  font-size: 5vw;
+  text-align: center;
+
+}
+.title span {
+  display: block;
+  font-size: 10vw;
+  letter-spacing: 1.5vw;
+}
+
+
+.card{
+  border-radius: 10px;
+}
+
+.meeting{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.basic_info{
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+form{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+  margin-top: 10vh;
+}
+
